@@ -1,0 +1,119 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+    "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<title>Sterling - Yet Another Dropdown Menu</title>
+		<link href="sterling.css" rel="stylesheet" />
+		<script type="text/javascript" src="sterling.js"></script>
+
+		<style type="text/css">
+			.sterling a{
+				padding: 10px 25px;
+				color: white;
+			}
+			.sterling li{
+				background: gray;
+			}
+			.sterling li:hover, .sterling li.ie6-hover{
+				background: red;
+			}
+			.sterling ul a{
+				padding: 25px;
+			}
+			.sterling ul li{
+				background: green;
+				border-bottom: 1px solid white;
+			}
+			.sterling ul li:hover, .sterling ul li.ie6-hover{
+				background: blue;
+			}
+		</style>
+	</head>
+	<body>
+		<ul class="sterling">
+		        <li>
+		                <a href="#">one</a>
+		        </li>
+		        <li>
+		                <a href="#">two hundred and fifty</a>
+				<ul>
+				        <li>
+				                <a href="#">one</a>
+				        </li>
+				        <li>
+				                <a href="#">foo bar really long text</a>
+						<ul>
+						        <li>
+						                <a href="#">one thousand</a>
+						        </li>
+						        <li>
+								<a href="#">two two two</a>
+								<ul>
+									<li>
+										<a href="#">one</a>
+									</li>
+									<li>
+										<a href="#">two</a>
+									</li>
+									<li>
+										<a href="#">three</a>
+									</li>
+									<li>
+										<a href="#">four</a>
+									</li>
+								</ul>
+						        </li>
+						        <li>
+						                <a href="#">three</a>
+						        </li>
+						</ul>
+				        </li>
+				        <li>
+				                <a href="#">three</a>
+				        </li>
+				</ul>
+		        </li>
+		        <li>
+		                <a href="#">three</a>
+				<ul>
+					<li>
+						<a href="#">pig</a>
+					</li>
+					<li>
+						<a href="#">dog</a>
+					</li>
+					<li>
+						<a href="#">other various types of animals</a>
+					</li>
+					<li>
+						<a href="#">cow</a>
+					</li>
+				</ul>
+		        </li>
+		        <li>
+		                <a href="#">four</a>
+				<ul>
+				        <li>
+				                <a href="#">foo</a>
+						<ul>
+						        <li>
+						                <a href="#">blah</a>
+						        </li>
+						</ul>
+				        </li>
+				        <li>
+				                <a href="#">bar</a>
+				        </li>
+				        <li>
+				                <a href="#">foobar</a>
+				        </li>
+				</ul>
+		        </li>
+		</ul>
+
+		<div style="clear:both"></div>
+		<h1>Sterling</h1>
+		<h3>What's All This About?</h3>
+		<p>Sterling is yet another dropdown menu. It supports infinite levels of nesting automagically. Its fully functional with CSS alone, but JS is used to support variable width dropdowns. No jQuery needed. Unlike many existing dropdown menus, Sterling has a clear separation of functionality and styling so you can go crazy making it look sweet without having to worry about breaking it. Sterling has been tested in IE/6/7/8/9, Chrome, Safari, and Firefox</p>
+	</body>
+</html>

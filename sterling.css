@@ -1,0 +1,43 @@
+.sterling, .sterling ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+.sterling li{
+	margin: 0;
+	padding: 0;
+	float: left;
+	position: relative;
+}
+.sterling li li{
+	display: block;
+	float: none;
+}
+.sterling a{
+	display: block;
+}
+.sterling ul{
+	position: absolute;
+	left: -9999%;
+	background: #ffffff;
+	background: rgba(255,255,255,0);
+}
+.sterling li:hover > ul{
+	left: auto;
+}
+.sterling ul ul{
+	top: 0;
+}
+
+/* no js fallback */
+.sterling ul{
+	top: 18px;
+}
+.sterling ul ul{
+	margin-left: 200px;
+}
+.sterling ul a{
+	width: 200px;
+}
+/* end no js fallback */
