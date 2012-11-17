@@ -10,7 +10,7 @@ Yet another web dropdown menu.
 
 Unlike many existing dropdown menus, Sterling does not come with any base styles. You can go crazy making it look sweet without having to worry about breaking it or fighting any existing styles.
 
-###Infinite Levesls of Nesting
+###Infinite Levels of Nesting
 
 No need to do anything extra on your end. Sterling supports infinite levels of nesting out of the box. That means you'll never have to write a line like this again (I'm looking at you Suckerfish): 
 
@@ -32,14 +32,14 @@ Sterling has been tested with IE6/7/8/9, Safari, Chrome, and Firefox. Note - Ste
 
 ##Usage
 
-*Step 1 -* Include sterling.css and sterling.js (optional) in your document's head like this:
+**Step 1 -** Include sterling.css and sterling.js (optional) in your document's head like this:
 
 ```
 <link href="/css/sterling.css" rel="stylesheet" />
 <script src="/js/sterling.js" type="text/javascript"></script>
 ``` 
 
-*Step 2 -* Create your nested menu using unordered lists. Be sure the root ul has the class *sterling*.
+**Step 2 -** Create your nested menu using unordered lists. Be sure the root ul has the class *sterling*.
 
 ```
 <ul class="sterling">
@@ -63,7 +63,7 @@ Sterling has been tested with IE6/7/8/9, Safari, Chrome, and Firefox. Note - Ste
 </ul>
 ```
 
-*Step 3 -* Style your menu however you'd like. You're free to use pretty much any styles you want, just be sure to stay away from positioning styles like margin, position, left, top, bottom, right etc. Here is an example style (note - if you're supporting IE6 still, be sure to include the ie6-hover class as well):
+**Step 3 -** Style your menu however you'd like. You're free to use pretty much any styles you want, just be sure to stay away from positioning styles like margin, position, left, top, bottom, right etc. Here is an example style (note - if you're supporting IE6 still, be sure to include the ie6-hover class as well):
 
 ```
 .sterling a{
@@ -88,4 +88,4 @@ Sterling has been tested with IE6/7/8/9, Safari, Chrome, and Firefox. Note - Ste
 }
 ```
 
-*Step 4 -* Celebrate.
+**Step 4 -** Celebrate.
